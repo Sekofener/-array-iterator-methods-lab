@@ -284,11 +284,12 @@ console.log('Exercise 8 Correct Result: ', { text: 'Super good', id: 823423 })
 
 // - Store the index in the variable 'idx'.
 
-let idx = null
+// let idx = null
 
-idx = comments.find((comment)=> {
-    return comment.id=== 123523
-    })
+let idx = comments.findIndex((comment)=> {
+  return comment.id=== 123523
+  })
+  
     
 
 
